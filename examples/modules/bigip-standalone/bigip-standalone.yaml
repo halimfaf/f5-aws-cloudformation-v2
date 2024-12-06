@@ -613,7 +613,7 @@ Resources:
     Properties:
       LaunchTemplateData:
         MetadataOptions:
-          HttpTokens: optional
+          HttpTokens: required
           InstanceMetadataTags: enabled
     Type: AWS::EC2::LaunchTemplate
   BigipInternalInterface:
